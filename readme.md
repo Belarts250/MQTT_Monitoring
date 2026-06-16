@@ -51,6 +51,7 @@ graph LR
 ```
 
 **Data Flow:**
+![Hardware Setup](images/system_architecture.png)
 
 1. DHT11 sensor reads temperature and humidity
 2. Arduino processes data and displays on LCD with scrolling candidate name

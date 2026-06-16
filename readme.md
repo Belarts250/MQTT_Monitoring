@@ -318,7 +318,7 @@ CDN-loaded libraries (no installation needed):
 ## 🔗 Links
 
 - **Dashboard:** http://157.173.101.159:9219/dashboard.html
-- **GitHub Repository:** [[Github Link](https://github.com/Belarts250/MQTT_Monitoring)]
+- **GitHub Repository:** [[MQTT_Monitoring](https://github.com/Belarts250/MQTT_Monitoring)]
 - **VPS IP:** 157.173.101.159
 - **MQTT Broker:** mqtt://157.173.101.159:1883
 

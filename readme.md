@@ -195,42 +195,11 @@ Temperature Sensor → Arduino Uno → LCD + USB Serial → PC Program → MQTT 
 
 | Project | Preview |
 |---------|---------|
-| Arduino Serial Monitor | ![Hardware Setup](images/arduino_mqtt.png) |
+| Arduino Serial Monitor output | ![Hardware Setup](images/arduino_mqtt.png) |
 | PC Client Running | ![PC Client](images/python_output.png) |
 | MQTT Subscriber (VPS) | ![MQTT Subscriber](images/mosquitto_subscribe.png) |
 | Web Dashboard | ![Web Dashboard](images/dashboard.png) |
 
-**Hardware Setup**
-
-![Hardware Setup](images/arduino_mqtt.png)
-
-Arduino Uno connected to DHT11 sensor and 16x2 LCD with I2C module
-
----
-
-**PC Client Running**
-
-![PC Client Running](images/python_output.png)
-
-Python script running on Windows PC showing temperature and humidity readings
-
----
-
-**MQTT Subscriber (VPS)**
-
-![MQTT Subscriber](images/mosquitto_subscribe.png)
-
-mosquitto_sub commands on VPS showing temperature and humidity data
-
----
-
-**Web Dashboard**
-
-![Web Dashboard](images/dashboard.png)
-
-Web dashboard showing live temperature, humidity, and real-time chart
-
----
 
 ## 📡 Communication Details
 
@@ -349,7 +318,7 @@ CDN-loaded libraries (no installation needed):
 ## 🔗 Links
 
 - **Dashboard:** http://157.173.101.159:9219/dashboard.html
-- **GitHub Repository:** [[Insert your GitHub link here](https://github.com/Belarts250/MQTT_Monitoring)]
+- **GitHub Repository:** [[Github Link](https://github.com/Belarts250/MQTT_Monitoring)]
 - **VPS IP:** 157.173.101.159
 - **MQTT Broker:** mqtt://157.173.101.159:1883
 
